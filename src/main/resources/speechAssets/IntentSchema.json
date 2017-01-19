@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {
+      "intent": "AddUserIntent",
+      "slots": [
+        {
+          "name": "UserName",
+          "type": "LIST_OF_COMMON_NAMES"
+        }
+      ]
+    },
+    {
+      "intent": "SetWeightIntent",
+      "slots": [
+        {
+          "name": "UserName",
+          "type": "LIST_OF_COMMON_NAMES"
+        },
+        {
+          "name": "WeightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "SetHeightIntent",
+      "slots": [
+        {
+          "name": "UserName",
+          "type": "LIST_OF_COMMON_NAMES"
+        },
+        {
+          "name": "HeightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "ResetUsersIntent"
+    },
+    {
+      "intent": "TellWeightIntent"
+    },
+    {
+      "intent": "TellHeightIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
